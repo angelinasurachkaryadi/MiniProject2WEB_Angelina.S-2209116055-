@@ -12,8 +12,8 @@
 :root{
     --bg-color: pink;
     --second-bg-color: #202020;
-    --text-color: rgb(25, 4, 130);
-    --second-color: rgb(145, 109, 179);
+    --text-color: rgb(255, 104, 104);
+    --second-color: rgb(247, 65, 143);
     --main-color:rgb(255, 136, 0);
     --big-font:5rem;
     --h2-font:3rem;
@@ -149,12 +149,13 @@ section{
     align-items: center;
     gap: 1.5rem;
 }
-.about-img img{
+.about-img img {
     max-width: 530px;
     height: auto;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
+
 .about-text h2{
     font-size: var(--h2-font);
     line-height: 1;
@@ -338,7 +339,7 @@ transition: all .45s ease;
 .Contact-form .Submit{
     display: inline-block;
     font-size: 16px;
-    background: rgb(255, 247, 138);
+    background: rgb(220, 255, 183);
     color: var(--text-color);
     width: 160px;
     transition: all .45s ease;
@@ -445,10 +446,11 @@ transition: all .45s ease;
 label{
     position: fixed;
     width: 100px;
-    height: 50px; /* Ubah ukuran tingginya sesuai kebutuhan */
+    height: 50px; 
     right: 20px;
     top: 55px; 
     transform: translate(-50%, -50%);
+    
 }
 
 
